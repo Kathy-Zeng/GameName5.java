@@ -1,0 +1,755 @@
+What is a city name?
+San Francisco
+What is a city name?
+New York City
+What is a city name?
+Niagara Falls
+What is a city name?
+Los Angeles
+What is a city name?
+San Diego
+What is a city name?
+Napa Valley
+What is a city name?
+Las Vegas
+What is a city name?
+Tijuana
+What is a city name?
+Chicago
+What is a city name?
+Seattle
+50
+What is a capital city?
+Washington D.C.
+What is a capital city?
+Ottawa
+What is a capital city?
+Mexico City
+What is a capital city?
+Havana
+What is a capital city?
+San Jose
+What is a capital city?
+Tegucigalpa
+What is a capital city?
+Belmopan
+What is a capital city?
+Port-au-Prince
+What is a capital city?
+Santo Domingo
+What is a capital city?
+Panama City
+50
+What is a beach in California?
+Baker Beach
+What is a beach in California?
+Big Sur
+What is a beach in New Jersey?
+Cape May
+What is a beach in California?
+Huntington Beach
+What is a beach in California?
+Long Beach
+What is a beach in South Carolina?
+Myrtle Beach
+What is a beach in Florida?
+Miami Beach
+What is a beach in California?
+Monterey
+What is a beach in California?
+Santa Cruz Boardwalk
+What is a beach in Florida?
+Higgs Beach
+50
+How many people in California?
+41 million
+How many people in Hawaii?
+1.4 million
+How many people in Texas?
+29 million
+How many people in Oregon?
+4.2 million
+How many people in Washington?
+7.6 million
+How many people in New York?
+19.4 million
+How many people in Wyoming?
+578,759
+How many people in Colorado?
+5.7 million
+How many people in Alaska?
+731,545
+How many people in Canada?
+37 million
+50
+Where is a landmark?
+Gateway Arch
+Where is a landmark?
+Mount Rushmore
+Where is a landmark?
+Statue of Liberty
+Where is a landmark?
+White House
+Where is a landmark?
+Golden Gate Bridge
+Where is a landmark?
+Hoover Dam
+Where is a landmark?
+Liberty Bell
+Where is a landmark?
+Alcatraz Island
+Where is a landmark?
+Disney World
+Where is a landmark?
+Cloud Gate
+50
+Where is a park?
+Yosemite National Park
+Where is a park?
+Yellowstone National Park
+Where is a park?
+Zion National park
+Where is a park?
+Grand Canyon National Park
+Where is a park?
+Grand Teton National Park
+Where is a park?
+Sequoia National Park
+Where is a park?
+Death Valley National Park
+Where is a park?
+Mount Rainer
+Where is a park?
+Lake Crater National Park
+Where is a park?
+Dry Tortugas National Park
+50
+What is a city name?
+Rio De Janeiro
+What is a city name?
+Ushania
+What is a city name?
+San Pedro De Atacama
+What is a city name?
+El Calafate
+What is a city name?
+Salta
+What is a city name?
+Santa Fe
+What is a city name?
+Cali
+What is a city name?
+Santa Cruz
+What is a city name?
+Boa Vista
+What is a city name?
+Sucre
+50
+What is a capital city?
+Brasilia
+What is a capital city?
+Buenos Aires
+What is a capital city?
+Lima
+What is a capital city?
+Santiago
+What is a capital city?
+Montevideo
+What is a capital city?
+Bogota
+What is a capital city?
+Quito
+What is a capital city?
+Cayenne
+What is a capital city?
+Caracas
+What is a capital city?
+Georgetown
+50
+What is a beach?
+Copacabana
+What is a beach?
+Lopes Mendes
+What is a beach?
+Tortuga Bay
+What is a beach?
+Playa Brava
+What is a beach?
+Ica
+What is a beach?
+Valparaiso
+What is a beach?
+Concha
+What is a beach?
+San Andres
+What is a beach?
+Prainha
+What is a beach?
+Itamambuca
+50
+How many people in Brazil?
+212 million
+How many people in Chile?
+19 million
+How many people in Bolivia?
+11 million
+How many people in Peru?
+32 million
+How many people in Columbia?
+50 million
+How many people in Venezuela?
+28 million
+How many people in Ecuador?
+17 million
+How many people in Guyana?
+786,552
+How many people in Suriname?
+586,632
+How many people in Paraguay?
+7 million
+50
+Where is a landmark?
+Sugar Loaf
+Where is a landmark?
+Machu Picchu
+Where is a landmark?
+Iguazu Falls
+Where is a landmark?
+El Morro
+Where is a landmark?
+Casapueblo
+Where is a landmark?
+Huaca Pucllana
+Where is a landmark?
+Petrohue Waterfalls
+Where is a landmark?
+Tierra del Fuego National Park
+Where is a landmark?
+Tutelar Figures
+Where is a landmark?
+La Recoleta Cemetery
+50
+Where is a park?
+Manu National Park
+Where is a park?
+Los Glaciares National Park
+Where is a park?
+Tayrona National Park
+Where is a park?
+Itatiaia National Park
+Where is a park?
+Cajas National Park
+Where is a park?
+Cotopaxi National Park
+Where is a park?
+Machalilla National Park 
+Where is a park?
+Lencois Maranhenses National Park
+Where is a park?
+Huascaran National Park
+Where is a park?
+Eduardo Avaroa Andean National Reserve
+50
+What is a city name?
+Venice
+What is a city name?
+Saint Petersburg
+What is a city name?
+Barcelona
+What is a city name?
+Naples
+What is a city name?
+Bath
+What is a city name?
+Longyearbyen
+What is a city name?
+Cork
+What is a city name?
+Graz
+What is a city name?
+Munich
+What is a city name?
+Krakow
+50
+What is a capital city?
+Dublin
+What is a capital city?
+London
+What is a capital city?
+Paris
+What is a capital city?
+Vienna
+What is a capital city?
+Athens
+What is a capital city?
+Sofia
+What is a capital city?
+Rome
+What is a capital city?
+Moscow
+What is a capital city?
+Minsk
+What is a capital city?
+Helsinki
+50
+What is a beach?
+Myrtos Beach
+What is a beach?
+Stone Beach
+What is a beach?
+K Beach
+What is a beach?
+Haukland Beach
+What is a beach?
+West Beach
+What is a beach?
+Barafundle Bay
+What is a beach?
+Cala Macarella
+What is a beach?
+Costa del Sol
+What is a beach?
+San Beach
+What is a beach?
+Cliff Beach
+50
+How many people in Switzerland?
+8 million
+How many people in Germany?
+83 million
+How many people in United Kingdom?
+67 million
+How many people in Ireland?
+4 million
+How many people in Finland?
+5 million
+How many people in Norway?
+5 million
+How many people in Austria?
+9 million
+How many people in Russia?
+145 million
+How many people in Bulgaria?
+6 million
+How many people in Greece?
+10 million
+50
+Where is a landmark?
+Stonehenge
+Where is a landmark?
+Neuschwanstein Castle
+Where is a landmark?
+Buckingham Palace
+Where is a landmark?
+Swiss Alps
+Where is a landmark?
+Louvre Meseum
+Where is a landmark?
+Colosseum
+Where is a landmark?
+Big Ben
+Where is a landmark?
+London Bridge
+Where is a landmark?
+Atomium
+Where is a landmark?
+Eiffel Tower
+50
+Where is a park?
+Cappadocia
+Where is a park?
+Goreme National Park
+Where is a park?
+Peneda-Geres National Park
+Where is a park?
+Loch Lomond and The Trossachs
+Where is a park?
+Timanfaya National Park
+Where is a park?
+Cevennes National Park
+Where is a park?
+Pembrokeshire Coast National Park
+Where is a park?
+Cheile Nerei-Beusnita National Park
+Where is a park?
+Cairngorms National Park
+Where is a park?
+Lake District National Park
+50
+What is a city name?
+Shanghai
+What is a city name?
+Dubai
+What is a city name?
+Mumbai
+What is a city name?
+Istanbul
+What is a city name?
+Lhasa
+What is a city name?
+Hong Kong
+What is a city name?
+Macau
+What is a city name?
+Kashgar
+What is a city name?
+Singapore
+What is a city name?
+Siem Reap
+50
+What is a capital city?
+Beijing
+What is a capital city?
+Tokyo
+What is a capital city?
+Astana
+What is a capital city?
+Seoul
+What is a capital city?
+Kuala Lumpur
+What is a capital city?
+Pyongyang
+What is a capital city?
+Abu Dhabi
+What is a capital city?
+Ankara
+What is a capital city?
+Kathmandu
+What is a capital city?
+Bangkok
+50
+What is a beach?
+Goa Beach
+What is a beach?
+Phuket
+What is a beach?
+Pianemo Beach
+What is a beach?
+Pink Beach
+What is a beach?
+Mataking Island
+What is a beach?
+Halong Bay
+What is a beach?
+Kelingking Beach
+What is a beach?
+Bai Sao Beach
+What is a beach?
+Pom Pom Island
+What is a beach?
+White Beach
+50
+How many people in India?
+1.3 billion
+How many people in China?
+1.4 billion
+How many people in South Korea?
+51 million
+How many people in Thailand?
+69 million
+How many people in North Korea?
+25 million
+How many people in Burma?
+54 million
+How many people in Nepal?
+29 million
+How many people in United Arab Emirates?
+9 million
+How many people in Turkey?
+84 million
+How many people in Kazakhstan?
+18 million
+50
+What is a landmark?
+Great Wall of China
+What is a landmark?
+Taj Mahal
+What is a landmark?
+Yellow Crane Tower
+What is a landmark?
+Mount Everest
+What is a landmark?
+Mount Fuji
+What is a landmark?
+Gobi Desert
+What is a landmark?
+Mount Damavand
+What is a landmark?
+Angkor Wat
+What is a landmark?
+Petra
+What is a landmark?
+Forbidden City
+50
+Where is a park?
+Dubai's Ski Resort
+Where is a park?
+Hong Kong Disneyland
+Where is a park?
+Olympic Park
+Where is a park?
+Waterbom Bali 
+Where is a park?
+Atlantis Aquaventure Waterpark
+Where is a park?
+Wild Wadi Waterpark 
+Where is a park?
+Fuji Q Highland
+Where is a park?
+Sanrio Puroland
+Where is a park?
+Mara River Safari Lodge
+Where is a park?
+Mall's Indoor Waterpark
+50
+What is a city name?
+Sydney
+What is a city name?
+Gold Coast
+What is a city name?
+Auckland
+What is a city name?
+Rotorua
+What is a city name?
+Christchurch
+What is a city name?
+Dunedin
+What is a city name?
+Queenstown
+What is a city name?
+Melbourne 
+What is a city name?
+Perth
+What is a city name?
+Port Moresby
+What is a capital city?
+Canberra
+What is a capital city?
+Wellington
+What is a capital city?
+Noumea
+What is a capital city?
+Alofi
+What is a capital city?
+Papeete
+What is a capital city?
+Suva
+What is a capital city?
+Pago Pago
+What is a capital city?
+Adamstown
+What is a capital city?
+Nuku'alofa
+What is a capital city?
+Majuro
+50
+What is a beach?
+Bondi Beach
+What is a beach?
+Four Mile Beach
+What is a beach?
+Ninety Mile Beach
+What is a beach?
+Surfers Paradise
+What is a beach?
+Manly Beach
+What is a beach?
+White Haven Beach
+What is a beach?
+Rapid Bay
+What is a beach?
+Seventy Five Mile Beach
+What is a beach?
+Mooloolaba Beach
+What is a beach?
+Cable Beach
+50
+How many people in Australia?
+25 million
+How many people in New Zealand?
+5 million
+How many people in Fiji?
+896,445
+How many people in Niue?
+1,626
+How many people in New Caledonia?
+285,498
+How many people in Tahiti?
+279,287
+How many people in Pitcairn Island?
+67
+How many people in Guam?
+168,775
+How many people in Marshall Islands?
+59,190
+How many people in Tonga?
+105,695
+50
+What is a landmark?
+Great Barrier Reef
+What is a landmark?
+Uluru
+What is a landmark?
+Sydney Opera House
+What is a landmark?
+Pink Lake
+What is a landmark?
+Wai-O-Tapu
+What is a landmark?
+Jellyfish Lake
+What is a landmark?
+Hut
+What is a landmark?
+Bora Bora
+What is a landmark?
+Milford Sound
+What is a landmark?
+Fraser Island
+50
+What is a park?
+Mount Cook
+What is a park?
+Blue Mountain
+What is a park?
+Coffin Bay National Park
+What is a park?
+Coorong National Park
+What is a park?
+Daintree National Park
+What is a park?
+Fiordland National Park
+What is a park?
+Freycinet National Park
+What is a park?
+Kakadu National Park
+What is a park?
+Nambung National Park
+What is a park?
+Purnululu National Park
+50
+What is a city name?
+Casablanca
+What is a city name?
+Marrakesh
+What is a city name?
+Johannesburg 
+What is a city name?
+Cotonou
+What is a city name?
+Brazzaville
+What is a city name?
+Bamako
+What is a city name?
+Kumasi
+What is a city name?
+Mombasa
+What is a city name?
+Nouakchott
+What is a city name?
+Bujumbura
+50
+What is a capital city?
+Cairo
+What is a capital city?
+Rabat
+What is a capital city?
+Lagos
+What is a capital city?
+Dar es Salaam
+What is a capital city?
+Victoria
+What is a capital city?
+Tunis
+What is a capital city?
+Juba
+What is a capital city?
+Lome
+What is a capital city?
+Nairobi
+What is a capital city?
+Tripoli
+50
+What is a beach?
+Zanzibar
+What is a beach?
+Camps Bay
+What is a beach?
+Plettenberg Bay
+What is a beach?
+Machangulo Beach
+What is a beach?
+Diani Beach
+What is a beach?
+Sharm El-Sheikh Beach
+What is a beach?
+Watamu Beach
+What is a beach?
+Chitimba Beach
+What is a beach?
+Anse Soleil
+What is a beach?
+Belle Mare Beach
+50
+How many people in Egypt?
+102 million
+How many people in Morocco?
+36 million
+How many people in South Africa?
+59 million
+How many people in Tanzania?
+59 million
+How many people in Nigeria?
+206 million
+How many people in Chad?
+16 million
+How many people in Mali?
+20 million
+How many people in Niger?
+24 million
+How many people in Cameroon?
+26 million
+How many people in Congo?
+5.5 million
+50
+What is a landmark?
+Mount Kilimanjaro
+What is a landmark?
+Avenue of the Baobabs
+What is a landmark?
+The Great Pyramid of Giza
+What is a landmark?
+Table Moutain
+What is a landmark?
+Timbuktu
+What is a landmark?
+Coco de Mer Palms
+What is a landmark?
+Victoria Falls
+What is a landmark?
+Dunes of the Namib
+What is a landmark?
+Nile River
+What is a landmark?
+Okavango Delta
+50
+What is a park?
+Serengeti National Park
+What is a park?
+Etosha National Park
+What is a park?
+Kruger National Park
+What is a park?
+Lake Nakuru National Park
+What is a park?
+Virunga National Park
+What is a park?
+Ngorongoro National Park
+What is a park?
+Amboseli National Park
+What is a park?
+Hwange National Park
+What is a park?
+Lake Manyara National Park
+What is a park?
+Namib-Naukluft National Park
+50

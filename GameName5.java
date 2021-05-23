@@ -82,7 +82,7 @@ class GameName5Panel extends JPanel
 		CardLayout cards = new CardLayout();
 		setLayout(cards);
 		GameData data = new GameData();
-		//data.grabQuestionFromFile();
+		data.grabQuestionFromFile();
 		StartPage sp = new StartPage(this, cards);
 		add(sp, "StartPage");
 		Instructions is = new Instructions(this, cards);
@@ -219,8 +219,8 @@ class Instructions extends JPanel
 		JTextArea ta = new JTextArea("Geography Quiz: There is 10 questions"
 			+ " per game that a user's goal is to get all answers right\n"
 			+ "in order to get 10 falling balls after game been finished."
-			+ " A user needs to type a right answer, if \n not, a right answer"
-			+ " is going to shown or a user click on a hint button.");
+			+ " A user needs to type a right answer, if a user type in a"
+			+ " wrong answer, correct answer is shown.");
 		add(ta, BorderLayout.CENTER);
 		JButton back = new JButton("Go Back");
 		add(back, BorderLayout.SOUTH);
@@ -496,19 +496,26 @@ class PlayGamePanel extends JPanel
 		private double secondsDecimal, secondsDisplay;
 		private Timer timer;
 		private JButton start;
+		private JTextArea lose;
 
 		// Use setPreferredSize to make a timer object fully visible.
 		public TimerInEast()
 		{
+			JPanel east = new JPanel(); 
 			setPreferredSize(new Dimension(165, 0) );
 			initialValues();
 			setLayout(new BorderLayout(1, 20) );
 			JLabel timerLabel = new JLabel("\t\tTimer: ");
-			add(timerLabel, BorderLayout.NORTH);
+			this.add(timerLabel, BorderLayout.NORTH);
 			timer = new Timer(100, this);
 			start = new JButton("Start");
 			start.addActionListener(this);
 			this.add(start, BorderLayout.SOUTH);
+			lose = new JTextArea("I lose", 1, 6);
+			this.add(lose, BorderLayout.CENTER);
+			lose.setForeground(Color.RED);
+			lose.setVisible(false);
+			lose.setPreferredSize(new Dimension(20, 10) );
 		}
 
 		// Initialize values for timer.
@@ -537,6 +544,8 @@ class PlayGamePanel extends JPanel
 			g.drawString (elapsedMinutes + " minutes\n" + 
 				String.format("%.1f", secondsDisplay) + " seconds" , 20, 140 );
 			g.setColor ( Color.BLUE );
+			if(secondsDecimal == 0)
+				lose.setVisible(true);
 		}
 
 		// Determine whether a timer run at right times.
@@ -557,9 +566,6 @@ class PlayGamePanel extends JPanel
 			{
 				timer.stop();
 				timerRunning = false;
-				JTextArea lose = new JTextArea("I lose");
-				add(lose, BorderLayout.NORTH);
-				lose.setForeground(Color.RED);
 			}
 			if(timerRunning == true)
 				tenthSec++;
@@ -627,7 +633,6 @@ class PlayGamePanel extends JPanel
 							names = new String[][] {{"wdc.jpg", "ott.jpg", "mcity.jpg", "hav.jpg", "sanjose.jpg"},
 								{"te.jpg", "bel.jpg", "pap.jpg", "san.jpg", "pc.jpg"}};
 						}
-						
 						else if(categoryNam.equals("beaches") )
 						{
 							names = new String[][] {{"bbeach.jpg", "bsur.jpg", "cmay.jpg", "hbeach.jpg", "lbeach.jpg"},
@@ -676,7 +681,6 @@ class PlayGamePanel extends JPanel
 							names = new String[][] {{"sloaf.jpg", "mp.jpg", "if.jpg", "elmorro.jpg", "casapueblo.jpg"},
 								{"hp.jpg", "petrohué.jpg", "tierradelfuego.jpg", "tutelarfigures.jpg", "lrcemetery.jpg"}};
 						}
-						// These images need to be fix.
 						else if(categoryNam.equals("parks") )
 						{
 							names = new String[][] {{"manu.jpg", "losg.jpg", "tpark.jpg", "itatiaia.png", "elcajas.jpg"},
@@ -913,7 +917,7 @@ class PlayGamePanel extends JPanel
 			System.out.println("text says " + answers);
 			if(correctAnswer == false)
 			{
-				answer.setText("Wrong answer, the correct answer is " + data.getAnswer() 
+				answer.setText("Wrong answer, the correct answer is " + data.getCorrectAnswer() 
 					+ "in " + remainingSeconds + " seconds.");
 				answer.setEditable(false);
 			}
@@ -1004,7 +1008,7 @@ class GameResultsPanel extends JPanel
 			scores -= 5;
 		else
 			scores += 5;
-		wrongAn = Math.abs(scores - data.getCorrectAnswer() );
+		//wrongAn = Math.abs(scores - data.getCorrectAnswer() );
 	}
 	
 	// When a user presses play again button, it takes to game page.
@@ -1052,11 +1056,12 @@ class GameResultsPanel extends JPanel
 	}
 }
 
-// Stores in questions and scores to files.
+// Stores in questions and scores to files. Need category for different files.
 class GameData
 {
-	private String question;
-	private int correctAnswer;
+	private String[] questions;
+	private String[] answers;
+	private int[] correctAnswer;
 	private boolean [] chosenQuestions;
 	private int questionCount;
 	private int correctCount, lastGameCorrectCount;
@@ -1066,6 +1071,7 @@ class GameData
 	private PrintWriter pw; // Write to a file.
 	private String updateScoreFile; // Appends scores
 	private String answerIt;
+	private int counter;
 
 	public GameData()
 	{
@@ -1077,6 +1083,9 @@ class GameData
 		updateScoreFile = new String("updateScores.txt");
 		openFile();
 		createFile();
+		questions = new String[360];
+		answers = new String[360];
+		counter = 0;
 		//createScores();
 		//resetAll();
 	}
@@ -1084,8 +1093,7 @@ class GameData
 	public void resetAll()
 	{
 		answerIt = "";
-		question = "";
-		correctAnswer = -1;
+		//question = "";
 		chosenQuestions = new boolean[10];
 		questionCount = correctCount = 1;
 	}
@@ -1127,30 +1135,21 @@ class GameData
 	{
 		String result = "";
 		int questionNumber = (int)(Math.random() * 360); 
-		while(chosenQuestions[questionNumber] == true)
-		{
-			questionNumber = (int)(Math.random() * 360);
-		}
-		chosenQuestions[questionNumber] = true;
-		for(int i = 0; i < 10; i++)
-		{
-			questionNumber++;
-		}
-		
-		questionCount++;
-		int counter = 0;
-		
+		//chosenQuestions[questionNumber] = true;
 		while(inFile.hasNext() && counter < 2 * questionNumber)
 		{
 			String line = inFile.nextLine();
+			questions[counter] = inFile.nextLine(); 
+			answers[counter] = inFile.nextLine();
 			counter++;
 		}
-		question = inFile.nextLine();
 		counter = 0;
 		while(inFile.hasNext() && counter < 1)
 		{
-			answerIt = inFile.nextLine();
+			questions[counter] = inFile.nextLine();
+			answers[counter] = inFile.nextLine();
 			counter++;
+			System.out.println(answers[counter]);
 		}
 
 		while(inFile.hasNext()) 
@@ -1166,17 +1165,12 @@ class GameData
 
 	public String getQuestion( )
 	{
-		return "" + questionCount + ".\n" + question;
+		return "" + questionCount + ".\n" + questions[counter];
 	}
 						
-	public String getAnswer()
+	public String getCorrectAnswer( )
 	{
-		return answerIt;
-	}
-						
-	public int getCorrectAnswer( )
-	{
-		return correctAnswer;
+		return answers[counter];
 	}
 						
 	public int getQuestionCount( )
